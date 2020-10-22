@@ -32,7 +32,7 @@ kegagalan saat menjalankan perintah ```git commit```
 
   ``$ git config --global user.email "nama_user"``
 
-  ![git --version](Gambar/Gambar3.png)
+  ![git --version1](Gambar/Gambar3.png)
 
 ## Perintah Dasar Git
 * ``git init`` , perintah untuk membuat repository local
@@ -53,14 +53,14 @@ pada staging sebelum proses commit.
 
   ``$ cd tugaseko``
 
-![git --version](Gambar/Gambar4.png)
+![git --version2](Gambar/Gambar4.png)
 
 * Sehingga terbentuk satu direktori baru dibawahnya, selanjutnya masuk kedalam direktori tersebut dengan perintah cd (change directory)
 * direktory aktif menjadi: C:\Users\HP\tugaseko
 * Jalankan perintah git init, untuk membuat repository local.
 ``$ git init``
 
-![git --version](Gambar/Gambar5.png)
+![git --version3](Gambar/Gambar5.png)
 * Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
 * Pada direktori tersebut, semua perubahan pada working directory akan disimpan.
 
@@ -72,7 +72,7 @@ pada staging sebelum proses commit.
 
 * File README.md berhasil dibuat.
 
-  ![git --version](Gambar/Gambar6.png)
+  ![git --version4](Gambar/Gambar6.png)
 
 # Menambahkan File baru pada repository
 * Untuk menambahkan file yang baru saja dibuat tersebut gunakan perintah git add.
@@ -81,7 +81,7 @@ pada staging sebelum proses commit.
 
 * File README.md berhasil ditambahkan.
 
-  ![git --version](Gambar/Gambar7.png)
+  ![git --version5](Gambar/Gambar7.png)
 
 # Commit (Menyimpan perubahan ke database)
 * Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah
@@ -90,27 +90,27 @@ pada staging sebelum proses commit.
 
 * Perubahan berhasil disimpan.
 
-  ![git --version](Gambar/Gambar8.png)
+  ![git --version6](Gambar/Gambar8.png)
 
 # Membuat repository server
 * Server reopsitory yang akan kita gunakan adalah http://github.com, Anda harus membuat akun terlebih dahulu.
 * Pada laman github, klik tombol start a project, atau
 * Dari menu (icon +) klik New Repository
 
-![git --version](Gambar/Gambar9.png)
+![git --version7](Gambar/Gambar9.png)
 
 # Membuat repository server
 * Isi nama repository nya, misal: TugasVCS
 * lalu klik tombol Create repository
 
-  ![git --version](Gambar/Gambar10.png)
+  ![git --version7](Gambar/Gambar10.png)
 
 # Menambahkan Remote Repository
 * Remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user.
 * Untuk menambahkan remote repository server, gunakan perintah git remote add origin [url]
 
   ``$ git remote add origin https://github.com/fahmiekoputrosantoso/TugasVCS``
-  ![git --version](Gambar/Gambar11.png)
+  ![git --version8](Gambar/Gambar11.png)
 
 # Push (Mengirim perubahan ke server)
 * Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
@@ -119,13 +119,13 @@ pada staging sebelum proses commit.
 
 * Perintah ini akan meminta memasukkan username dan password pada akun github.com
 
-  ![git --version](Gambar/Gambar12.png)
+  ![git --version9](Gambar/Gambar12.png)
 
 # Lihat hasilnya pada server repository
 * Buka laman github.com, arahkan pada repositori- nya.
 * Maka perubahan akan terlihat pada laman tersebut.
 
-  ![git --version](Gambar/Gambar13.png)
+  ![git --version10](Gambar/Gambar13.png)
 
 # Clone Repository
 * Clone repository, pada dasarnya adalah meng-copy repository server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya (working directory).
@@ -133,4 +133,4 @@ pada staging sebelum proses commit.
 
   ``git clone https://github.com/fahmiekoputrosantoso/TugasVCS``
 
-  ![git --version](Gambar/Gambar16.png)
+  ![git --version11](Gambar/Gambar16.png)
